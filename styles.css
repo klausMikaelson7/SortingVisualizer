@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: whitesmoke;
+    font-size: 50px;
+    padding: 1%;
+}
+.div1 {
+    height: 80px;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
+.div2 {
+    background-color: black;
+    vertical-align:auto;
+    color: whitesmoke;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.bt{
+    background-color: goldenrod;
+}
+
+.div4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.div5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+body{
+    background-color: black;
+}
+#array-container{
+    display: flex;
+    width: 70%;
+    height: 70vh;
+    transition: 2s all ease;
+}
